@@ -3,7 +3,11 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import devopsgptImg from "@/public/devops-gpt.png"
+import fastvdiImg from "@/public/fastVdi.png"
+import kongImg from "@/public/kong.png"
+import gamingImg from "@/public/gaming.png"
+
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,73 +39,68 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "B.Tech",
+    location: "Guntur",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I studied Mechanical Engineering at NEC to get my degree.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Hyderabad",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 2.3 years, creating various static and dynamic web pages using Next.js, React.js, Tailwind CSS, and ShadCN UI.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+    date: "2022 - 2024",
+  }
+ 
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "DevOps-Gpt",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I spend six months, as a front-end developer on this project, where DevOpsGPT automates tasks such as setting up CI/CD pipelines, managing deployments, and configuring development environments, streamlining the process and improving efficiency.",
+    tags: [ "Next.js","TypeScript", "Tailwind", "Shadcn UI"],
+    imageUrl: devopsgptImg,
   },
   {
-    title: "rmtDev",
+    title: "Fast VDI",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I spent six months, as a front-end developer, improving app performance with React Query, reducing loading times by 30%, and implementing an RBAC system to manage user permissions securely.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Shadcn UI"],
+    imageUrl: fastvdiImg,
   },
   {
-    title: "Word Analytics",
+    title: "Aura E-Gaming",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I spent a year as a Frontend Developer on a project where I developed reusable components for multiple games, implemented real-time data retrieval using REST API calls, and enhanced gaming experiences using Canvas, Matter.js, and Lottie animations.",
+    tags: ["React", "Next.js", "Tailwind", "MQTT","Node js","Canvas"],
+    imageUrl: gamingImg,
+  },
+  {
+    title: "Kong Konnect Dev Portal Customization",
+    description:
+      "Over four months, as a front-end developer, I customized the Kong Swagger UI theme, published it to NPM, and built full-screen components and catalog modules to enhance the portal's design and functionality.",
+    tags: ["React", "VueJs", "Tailwind","Swagger UI"],
+    imageUrl: kongImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
+  "JavaScript",
+  "TypeScript",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "HTML",
+  "CSS",
+  "Node.js",
   "Express",
+  "Redux",
+  "Git",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MongoDB",
+  "Supabase"
 ] as const;
