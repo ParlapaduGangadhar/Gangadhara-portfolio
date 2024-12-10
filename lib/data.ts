@@ -36,67 +36,62 @@ export const links = [
 export const experiencesData = [
   {
     title: "B.Tech",
-    location: "Guntur",
+    location: "Vijayawada",
     description:
-      "I studied Mechanical Engineering at NEC to get my degree.",
+      "I studied Electrical and Communication Engineering at ASIST to get my degree.",
     icon: React.createElement(LuGraduationCap),
-    date: "2018",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
     location: "Hyderabad",
     description:
-      "I worked as a front-end developer for 2.3 years, creating various static and dynamic web pages using Next.js, React.js, Tailwind CSS, and ShadCN UI.",
+      "I am doing INTERN in AINEXUSOPS, working as a jr.Developer for past 6 Months, creating various static and dynamic web pages using HTML, CSS, java script, React.js.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2024",
+    date: "01/05/2024 - Current",
   }
  
 ] as const;
 
 export const projectsData = [
   {
-    title: "DevOps-Gpt",
+    title: "Expense Tracker",
     description:
       "I spend six months, as a front-end developer on this project, where DevOpsGPT automates tasks such as setting up CI/CD pipelines, managing deployments, and configuring development environments, streamlining the process and improving efficiency.",
-    tags: [ "Next.js","TypeScript", "Tailwind", "Shadcn UI"],
+    tags: [ "HTML","CSS", "java script","Tail-wind","Fire base", "React.js"],
     imageUrl: devopsgptImg,
   },
   {
-    title: "Fast VDI",
+    title: "E-Commerce ",
     description:
       "I spent six months, as a front-end developer, improving app performance with React Query, reducing loading times by 30%, and implementing an RBAC system to manage user permissions securely.",
-    tags: ["Next.js", "TypeScript", "Tailwind", "Shadcn UI"],
+    tags: ["HTML","CSS", "java script", "React.js"],
     imageUrl: fastvdiImg,
   },
-  {
-    title: "Aura E-Gaming",
-    description:
-      "I spent a year as a Frontend Developer on a project where I developed reusable components for multiple games, implemented real-time data retrieval using REST API calls, and enhanced gaming experiences using Canvas, Matter.js, and Lottie animations.",
-    tags: ["React", "Next.js", "Tailwind", "MQTT","Node js","Canvas"],
-    imageUrl: gamingImg,
-  },
-  {
-    title: "Kong Konnect Dev Portal Customization",
-    description:
-      "Over four months, as a front-end developer, I customized the Kong Swagger UI theme, published it to NPM, and built full-screen components and catalog modules to enhance the portal's design and functionality.",
-    tags: ["React", "VueJs", "Tailwind","Swagger UI"],
-    imageUrl: kongImg,
-  },
+  // {
+  //   title: "Aura E-Gaming",
+  //   description:
+  //     "I spent a year as a Frontend Developer on a project where I developed reusable components for multiple games, implemented real-time data retrieval using REST API calls, and enhanced gaming experiences using Canvas, Matter.js, and Lottie animations.",
+  //   tags: ["React", "Next.js", "Tailwind", "MQTT","Node js","Canvas"],
+  //   imageUrl: gamingImg,
+  // },
+  // {
+  //   title: "Kong Konnect Dev Portal Customization",
+  //   description:
+  //     "Over four months, as a front-end developer, I customized the Kong Swagger UI theme, published it to NPM, and built full-screen components and catalog modules to enhance the portal's design and functionality.",
+  //   tags: ["React", "VueJs", "Tailwind","Swagger UI"],
+  //   imageUrl: kongImg,
+  // },
 ] as const;
 
 export const skillsData = [
-  "React",
-  "Next.js",
+  "HTML5",
+  "CSS3",
   "JavaScript",
-  "TypeScript",
+  "Java",
   "Tailwind",
-  "HTML",
-  "CSS",
-  "Node.js",
-  "Express",
-  "Redux",
+  "React.js",
   "Git",
-  "PostgreSQL",
-  "MongoDB",
-  "Supabase"
+  "My SQL"
+  
 ] as const;

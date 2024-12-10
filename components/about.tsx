@@ -19,11 +19,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      After finishing my bachelor's in Mechanical Engineering,{" "}
-      I switched to IT to follow my passion for programming. I started with frontend development and later learned <span className="font-medium">full-stack web development</span>. I love solving problems and finding solutions. My core stack is {" "}
+      After finishing my bachelor's in Electrical Engineering,{" "}
+      I completed java full-stack certification. I started with frontend development and later learned <span className="font-medium">full-stack java</span>. I love solving problems and finding solutions. My core stack is {" "}
       <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>, {" "} and I am also familiar with TypeScript. I’m always open to learning new technologies and I am currently looking for a    <span className="font-medium">full-time position</span>  as a software developer.{" "}
+          HTML5, CSS3, java script, Java, React.js, and My SQL
+        </span>, {" "} I’m always open to learning new technologies and I am currently looking for a    <span className="font-medium">full-time position</span>  as a software developer.{" "}
       </p>
 
     </motion.section>
